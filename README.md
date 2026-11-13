@@ -186,9 +186,9 @@ Base path: `backend/api/`
 
 | Name |
 
-| **Kishore S** |
-| **Sanjai B** |
-| **Sibidharan R** |
+| **Kishore S** 
+| **Sanjai B** 
+| **Sibidharan R** 
 
 
 
