@@ -184,15 +184,13 @@ Base path: `backend/api/`
 
 ## 👨‍💻 Team
 
-| Name | Roll No. |
-|---|---|
-| **Kishore S** | 927624BEE307 |
-| **Sanjai B** | 927624BEE084 |
-| **Sibidharan R** | 927624BEE091 |
+| Name |
 
-**Project Guide:** Dr. G. Subramaniam, Ph.D., Assistant Professor / EEE
-**Institution:** M. Kumarasamy College of Engineering (Autonomous), Karur
-**Course:** EGB1221 – Database Management Systems · May 2026
+| **Kishore S** |
+| **Sanjai B** |
+| **Sibidharan R** |
+
+
 
 ## 📄 License
 
