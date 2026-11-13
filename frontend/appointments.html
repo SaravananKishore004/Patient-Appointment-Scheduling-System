@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Appointments</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Scheduled Appointments</h1>
+            <p>Review all patient bookings.</p>
+        </header>
+        <main>
+            <div id="message" class="message-card" hidden></div>
+
+            <table id="appointmentsTable" hidden>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Patient</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Doctor</th>
+                        <th>Reason</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="appointmentsBody"></tbody>
+            </table>
+
+            <div class="actions">
+                <a class="button-link" href="index.html">Back to Booking</a>
+                <a class="button-link button-secondary" href="about.html">About</a>
+                <a class="button-link button-secondary" href="http://localhost/phpmyadmin" target="_blank" rel="noopener">Open phpMyAdmin</a>
+            </div>
+        </main>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/appointments.js"></script>
+</body>
+</html>

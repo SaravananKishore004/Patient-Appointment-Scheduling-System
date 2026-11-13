@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Appointment Scheduling</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Patient Appointment Scheduling</h1>
+            <p>Book an appointment with our medical team.</p>
+        </header>
+        <main>
+            <section class="form-card">
+                <h2>New Appointment</h2>
+                <div id="message" class="message-card" hidden></div>
+                <form id="appointmentForm">
+                    <label for="patient_name">Patient Name</label>
+                    <input type="text" id="patient_name" name="patient_name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="appointment_date">Appointment Date</label>
+                    <input type="date" id="appointment_date" name="appointment_date" required>
+
+                    <label for="appointment_time">Appointment Time</label>
+                    <input type="time" id="appointment_time" name="appointment_time" required>
+
+                    <label for="doctor">Doctor</label>
+                    <select id="doctor" name="doctor" required>
+                        <option value="">Select a doctor</option>
+                        <option value="Dr. A. Patel">Dr. A. Patel</option>
+                        <option value="Dr. S. Mehta">Dr. S. Mehta</option>
+                        <option value="Dr. N. Singh">Dr. N. Singh</option>
+                        <option value="Dr. R. Kumar">Dr. R. Kumar</option>
+                    </select>
+
+                    <label for="reason">Reason for Visit</label>
+                    <textarea id="reason" name="reason" rows="4" placeholder="Describe your symptoms or reason for appointment"></textarea>
+
+                    <button type="submit">Book Appointment</button>
+                </form>
+            </section>
+
+            <section class="info-card">
+                <h2>Appointment Dashboard</h2>
+                <p>After booking, you can view all scheduled appointments.</p>
+                <a class="button-link" href="appointments.html">View Appointments</a>
+                <a class="button-link button-secondary" href="about.html">About</a>
+                <a class="button-link button-secondary" href="http://localhost/phpmyadmin" target="_blank" rel="noopener">Open phpMyAdmin</a>
+            </section>
+        </main>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>
